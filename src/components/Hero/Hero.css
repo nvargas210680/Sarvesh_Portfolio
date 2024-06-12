@@ -1,0 +1,52 @@
+.hero-wrapper {
+  color: white;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.hero-container {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/*left side*/
+.hero-left {
+  gap: 3rem;
+  padding-bottom: 125px;
+}
+
+.hero-title {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title > h1 {
+  font-weight: 500;
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+
+.gears {
+  position: absolute;
+  right: 15%;
+  top: -35%;
+  z-index: -1;
+}
+
+.gears > img {
+  border-radius: 15rem;
+  width: 200px;
+}
+
+.image-container {
+  width: 30rem;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 15rem;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+}
